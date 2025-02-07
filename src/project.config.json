@@ -1,9 +1,9 @@
 {
   "project": {
-    "title": "My Portfolio"
+    "title": "Parth Gothadiya"
   },
   "sidebar": {
-    "name": "Richard hanrick",
+    "name": "Parth Gothadiya",
     "designation": "Web Developer",
     "email": "richard@example.com",
     "phone": "+1 123-456-7890",
@@ -34,17 +34,23 @@
         "to": "/"
       },
       {
+        "label": "Portfolio",
+        "to": "/portfolio"
+      },
+      
+      {
+        "label": "Resume",
+        "to": "/resume"
+      },
+      {
         "label": "Blog",
         "to": "/blog"
       },
       {
-        "label": "Portfolio",
-        "to": "/portfolio"
-      },
-      {
-        "label": "Resume",
-        "to": "/resume"
+        "label": "Contact",
+        "to":"/contact"
       }
+   
     ]
   },
   "resume": {
