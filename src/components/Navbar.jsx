@@ -3,12 +3,38 @@ import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
+  // console.log(window.config.navbar.links);
+  const link1 =[
+    {
+      to:"/",
+      label: "About"
+    },
+    {
+      to:"/resume",
+      label: "Resume"
+    },
+
+    {
+      to:"/blog",
+      label: "Blog"
+    },
+    {
+      to:"/portfolio",
+      label: "Portfolio"
+    },
+    {
+      to:"/contact",
+      label: "Contact"
+    },
+    
+
+  ] 
+
   return (
     <nav className="navbar">
       <ul className="navbar-list">
-
         {/* Dynamic Links from Configuration */}
-        {window.config.navbar.links.map((link, index) => (
+        {link1.map((link, index) => (
           <li key={index} className="navbar-item">
             <NavLink
               to={link.to}
@@ -18,6 +44,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         ))}
+       
       </ul>
     </nav>
   );
