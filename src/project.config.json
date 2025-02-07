@@ -1,0 +1,106 @@
+{
+  "project": {
+    "title": "My Portfolio"
+  },
+  "sidebar": {
+    "name": "Richard hanrick",
+    "designation": "Web Developer",
+    "email": "richard@example.com",
+    "phone": "+1 123-456-7890",
+    "dob": "1990-01-01",
+    "location": "New York, NY",
+    "socialMedia": [
+      {
+        "label": "Instagram",
+        "icon": "logo-instagram",
+        "url": "/"
+      },
+      {
+        "label": "Twitter",
+        "icon": "logo-twitter",
+        "url": "/"
+      },
+      {
+        "label": "Facebook",
+        "icon": "logo-facebook",
+        "url": "/"
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "About",
+        "to": "/"
+      },
+      {
+        "label": "Blog",
+        "to": "/blog"
+      },
+      {
+        "label": "Portfolio",
+        "to": "/portfolio"
+      },
+      {
+        "label": "Resume",
+        "to": "/resume"
+      }
+    ]
+  },
+  "resume": {
+    "timeline":{
+      "Education": [
+        {
+          "institution": "University School Of The Arts",
+          "years": "2007 — 2008",
+          "description": "Nemo enim ipsam voluptatem, blanditiis praesentium voluptatum delenit atque corrupti, quos dolores et quas molestias exceptur."
+        },
+        {
+          "institution": "New York Academy Of Art",
+          "years": "2006 — 2007",
+          "description": "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis."
+        },
+        {
+          "institution": "High School Of Art And Design",
+          "years": "2002 — 2004",
+          "description": "Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag adit aut fugit, sed consequuntur magni dolores eos."
+        }
+      ],
+      "Experience": [
+        {
+          "position": "Creative Director",
+          "years": "2015 — Present",
+          "description": "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+        },
+        {
+          "position": "Art Director",
+          "years": "2013 — 2015",
+          "description": "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+        },
+        {
+          "position": "Web Designer",
+          "years": "2010 — 2013",
+          "description": "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "Web Design",
+        "percentage": 80
+      },
+      {
+        "name": "Graphic Design",
+        "percentage": 70
+      },
+      {
+        "name": "Branding",
+        "percentage": 90
+      },
+      {
+        "name": "WordPress",
+        "percentage": 50
+      }
+    ]
+  }
+}
