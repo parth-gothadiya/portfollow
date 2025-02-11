@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
-const   Sidebar = () => {
+const Sidebar = () => {
+
+  const [isViewMore,setIsViewMore] = useState();
+
+  const toggleViewMore = () => {
+    setIsViewMore(!isViewMore);
+  }
+
   return (
-    <aside className="sidebar" data-sidebar>
+    <aside className={`sidebar ${isViewMore && 'active'}`} data-sidebar>
       <div className="sidebar-info">
         <figure className="avatar-box">
           <img src="/images/my-avatar.png" alt={window.config.sidebar.name} width="80" />
@@ -16,7 +23,7 @@ const   Sidebar = () => {
           <p className="title">{window.config.sidebar.designation}</p>
         </div>
 
-        <button className="info_more-btn" data-sidebar-btn>
+        <button onClick={()=> toggleViewMore()} className="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
           <ion-icon name="chevron-down"></ion-icon>
         </button>
