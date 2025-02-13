@@ -50,7 +50,7 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-crayola: hsl(45, 100%, 61%);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
@@ -304,6 +304,8 @@ main {
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
+  min-width: 330px;
+
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -423,15 +425,19 @@ main {
   gap: 15px;
   padding-bottom: 4px;
   padding-left: 7px;
+  
 }
 
 .social-item .social-link {
   color: var(--light-gray-70);
   font-size: 18px;
+  transition: 0.3s;
 }
 
 
-.social-item .social-link:hover { color: var(--light-gray); }
+.social-item .social-link:hover { color: var(--orange-yellow-crayola);
+transform: scale(1.2,1.2 ); 
+ }
 
 
 
@@ -467,10 +473,11 @@ main {
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
+  letter-spacing: 0.8px;
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); }
+.navbar-link:focus { color: rgb(252, 203, 114); }
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 

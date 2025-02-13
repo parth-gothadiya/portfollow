@@ -24,8 +24,10 @@ const Resume = () => {
               {timelineItem.map((item, index) => {
                 return (
                   <li key={index} className="timeline-item">
+                    
                     <h4 className="h4 timeline-item-title">
                       {item.institution}
+                      { item.position}
                     </h4>
 
                     <span>{item.years}</span>
@@ -49,9 +51,10 @@ const Resume = () => {
                 <div className="title-wrapper">
                   <h5 className="h5">{skill.name}</h5>
                   <data value={skill.percentage}>{skill.percentage}%</data>
+                  
                 </div>
 
-                <div className="skill-progress-bg">
+                <div className="skill-progress-bg"> 
                   <div
                     className="skill-progress-fill"
                     style={{ width: `${skill.percentage}%` }}

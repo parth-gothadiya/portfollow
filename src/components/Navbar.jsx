@@ -13,13 +13,12 @@ const Navbar = () => {
           <li key={index} className="navbar-item">
             <NavLink
               to={link.to}
-              className={({ isActive }) => (isActive ? 'navbar-link active' : 'navbar-link')}
-            >
+              className={({ isActive }) => (isActive ? 'navbar-link active' : 'navbar-link')}>
               {link.label}
             </NavLink>
           </li>
         ))}
-       
+
       </ul>
     </nav>
   );

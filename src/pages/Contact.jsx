@@ -1,4 +1,104 @@
 import React from "react";
+import  { useState, useEffect } from "react";
+
+
+const ContactForm = () => {
+  const [formData, setFormData] = useState({ fullname: "", email: "", message: "" });
+  const [messages, setMessages] = useState([]);
+  const [editingIndex, setEditingIndex] = useState(null);
+
+  useEffect(() => {
+    const storedMessages = JSON.parse(localStorage.getItem("messages")) || [];
+    setMessages(storedMessages);
+  }, []);
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    let updatedMessages;
+
+    if (editingIndex !== null) {
+      updatedMessages = messages.map((msg, index) => (index === editingIndex ? formData : msg));
+      setEditingIndex(null);
+    } else {
+      updatedMessages = [...messages, formData];
+    }
+
+    setMessages(updatedMessages);
+    localStorage.setItem("messages", JSON.stringify(updatedMessages));
+    setFormData({ fullname: "", email: "", message: "" });
+  };
+
+  const handleEdit = (index) => {
+    setFormData(messages[index]);
+    setEditingIndex(index);
+  };
+
+  const handleDelete = (index) => {
+    const updatedMessages = messages.filter((_, i) => i !== index);
+    setMessages(updatedMessages);
+    localStorage.setItem("messages", JSON.stringify(updatedMessages));
+  };
+
+  return (
+    <div>
+      <form onSubmit={handleSubmit} className="form">
+        <div className="input-wrapper">
+          <input
+            type="text"
+            name="fullname"
+            className="form-input"
+            placeholder="Full name"
+            value={formData.fullname}
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            className="form-input"
+            placeholder="Email address"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <textarea
+          name="message"
+          className="form-input"
+          placeholder="Your Message"
+          value={formData.message}
+          onChange={handleChange}
+          required
+        ></textarea>
+        <button className="form-btn" type="submit">
+          <span>{editingIndex !== null ? "Update Message" : "Send Message"}</span>
+        </button>
+      </form>
+
+      <div>
+        <h3>Saved Messages</h3>
+        <ul>
+          {messages.map((msg, index) => (
+            <li key={index}>
+              <p><strong>{msg.fullname}</strong> ({msg.email}): {msg.message}</p>
+              <button onClick={() => handleEdit(index)}>Edit</button>
+              <button onClick={() => handleDelete(index)}>Delete</button>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+
+
+
+
 
 const Contact = () => {
   return (
