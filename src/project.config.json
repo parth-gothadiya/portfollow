@@ -26,12 +26,12 @@
         "url": "/"
       },
       {
-        "label": "Facebook",
+        "label": "Telegream",
         "icon": "logo-facebook",
         "url": "/"
       },
       {
-        "label": "Facebook",
+        "label": "Whatapp",
         "icon": "logo-facebook",
         "url": "/"
       }
@@ -66,55 +66,78 @@
     "timeline":{
       "Education": [
         {
-          "institution": "University School Of The Arts",
-          "years": "2007 — 2008",
-          "description": "Nemo enim ipsam voluptatem, blanditiis praesentium voluptatum delenit atque corrupti, quos dolores et quas molestias exceptur."
+          "institution": "Shree Swaminarayan Gurukul-Chital ",
+          "years": "2016 — 2017  ",
+          "description": "(10th) Secondary School Certificate."
+        },
+       
+        {
+          "institution": "Shree Swaminarayan Gurukul-Chital",
+          "years": "2018 — 2019",
+          "description": "(12th) Higher Secondary Certificate."
         },
         {
-          "institution": "New York Academy Of Art",
-          "years": "2006 — 2007",
-          "description": "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis."
+          "institution": "kk parekh commerce college",
+          "years": "2019 — 2021",
+          "description": "Bachelor of Commerce."
         },
         {
-          "institution": "High School Of Art And Design",
-          "years": "2002 — 2004",
-          "description": "Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag adit aut fugit, sed consequuntur magni dolores eos."
+          "institution": "Creative Multimedia Institute Surat",
+          "years": "2021 — 2022",
+          "description": "Full Stack Developer"
         }
       ],
       "Experience": [
         {
-          "position": "Creative Director",
-          "years": "2015 — Present",
-          "description": "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+          "position": "The Diamond Port - Vesu",
+          "years": "2022 — 2023",
+          "description": "Edited and produced high-quality video content for marketing, social media, and promotional campaigns."
         },
         {
-          "position": "Art Director",
-          "years": "2013 — 2015",
-          "description": "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+          "position": "Swaminarayan Vadtal Gadi (SVG),",
+          "years": "2023 — 2023",
+          "description": "Integrated animations, transitions, and VFX to enhance video storytelling.Organized and archived footage to streamline project efficiency."
         },
         {
-          "position": "Web Designer",
-          "years": "2010 — 2013",
-          "description": "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+          "position": "Kachchhi Films ",
+          "years": "2023 — 2024",
+          "description": "Created engaging social media clips, YouTube videos, and reels optimized for viral reach.Managed post-production, wedding shooting,workflows, including syncing audio, adding captions, and fine-tuning comedic beats."
+        },
+        {
+          "position": "Digitlaks ",
+          "years": "2025 persent",
+          "description": "Edited medical and pharmacy-themed content, including sketches, educational videos, and promotional materials.Worked closely with writers, doctors, and comedians to create engaging and humorous health-related videos.."
         }
       ]
     },
     "skills": [
       {
-        "name": "Web Design",
-        "percentage": 80
-      },
-      {
-        "name": "Graphic Design",
-        "percentage": 70
-      },
-      {
-        "name": "Branding",
+        "name": "Adobe After Effect",
         "percentage": 90
       },
       {
-        "name": "WordPress",
-        "percentage": 50
+        "name": "Adobe Premiere Pro",
+        "percentage": 75
+      },
+      {
+        "name": "Color Grading Correction",
+        "percentage": 78
+      },
+      {
+        "name": "Audio Editing:",
+        "percentage": 60
+      },
+      {
+        "name": "video Enhancer",
+        "percentage": 88
+      },
+      {
+        "name": "Communication And Collaboration",
+        "percentage": 81
+      },
+      {
+        "name": "Computer Troubleshooting And Technical",
+        "percentage": 90
       }
     ]
   }

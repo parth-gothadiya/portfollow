@@ -341,6 +341,7 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+  letter-spacing: 0.6px;
 }
 
 .info_more-btn {
@@ -414,6 +415,8 @@ main {
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
   font-size: var(--fs-7);
+  letter-spacing: 0.3px;
+
 }
 
 .contact-info address { font-style: normal; }
