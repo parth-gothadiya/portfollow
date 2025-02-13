@@ -4,11 +4,11 @@
   },
   "sidebar": {
     "name": "Parth Gothadiya",
-    "designation": "Web Developer",
+    "designation": "Video Editor",
     "email": "parthgothadiya@gmail.com",
-    "phone": "+911234567891",
-    "dob": "1990-01-01",
-    "location": "New York, NY",
+    "phone": "+91 63536 44148",
+    "dob": "07-07-2003",
+    "location": "Surat, Gujart, India ",
     "socialMedia": [
       {
         "label": "Instagram",
@@ -16,8 +16,8 @@
         "url": "/"
       },
       {
-        "label": "Twitter",
-        "icon": "logo-twitter",
+        "label": "Youtube",
+        "icon": "logo-youtube",
         "url": "/"
       },
       {
