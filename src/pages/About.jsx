@@ -44,10 +44,10 @@ const About = () => {
             </div>
 
             <div className="service-content-box">
-              <h4 className="h4 service-item-title">Web design</h4>
+              <h4 className="h4 service-item-title">Video Editing </h4>
 
               <p className="service-item-text">
-                The most modern and high-quality design made at a professional level.
+                The most modern and high-quality Video made at a professional level.
               </p>
             </div>
 
@@ -76,10 +76,10 @@ const About = () => {
             </div>
 
             <div className="service-content-box">
-              <h4 className="h4 service-item-title">Mobile apps</h4>
+              <h4 className="h4 service-item-title">freelancing</h4>
 
               <p className="service-item-text">
-                Professional development of applications for iOS and Android.
+              The most modern and Freelancing Video made at a professional Work.
               </p>
             </div>
 
@@ -120,7 +120,7 @@ const About = () => {
                 <img src="/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar />
               </figure>
 
-              <h4 className="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+              <h4 className="h4 testimonials-item-title" data-testimonials-title>Editing Edition </h4>
 
               <div className="testimonials-text" data-testimonials-text>
                 <p>
