@@ -1247,6 +1247,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   .project-img,
   .blog-banner-box { height: auto; }
 
+
+
+
+
+
 }
 
 
@@ -1635,6 +1640,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin-left: auto;
   }
+
+  .custom-filter-box {
+    display: none;
+  }
   
 }
 
@@ -1880,10 +1889,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 /* -----------------------custom fileter section------------------------ */
 
+
 .custom-filter-box {
   position: relative;
   width: 100%;
   margin-bottom: 20px;
+  display: hidden;
 }
 
 .custom-filter-select {
