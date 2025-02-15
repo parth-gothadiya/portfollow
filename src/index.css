@@ -1887,6 +1887,78 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+/* portfollow img ------------------------------------ */
+
+/* Ensure body blur when modal is open */
+body.modal-open {
+  overflow: hidden;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: var(--shadow-1);
+  backdrop-filter: blur(10px); /* Background blur */
+  background: rgba(0, 0, 0,);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1000;
+}
+/* Modal Content */
+.modal-content {
+  background: var(--bg-gradient-jet);
+  box-shadow: var(--shadow-2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: red;
+}
+
+/* Image Styling */
+.modal-img {
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Blur background except modal */
+.modal-overlay::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px); /* Background blur effect */
+  z-index: -1;
+}
+/* new css moblie open drop down ----------------- */
+
+
+
 /* -----------------------custom fileter section------------------------ */
 
 
@@ -1964,5 +2036,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   background-color: var(--bg-gradient-yellow-1);
   color: var(--orange-yellow-crayola);
 }
+
+
+/* -----------------------------------------------------portfollow img------------------------------ */
+
+
+
 
 
