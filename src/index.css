@@ -1894,38 +1894,53 @@ textarea.form-input::-webkit-resizer { display: none; }
   position: relative;
   width: 100%;
   margin-bottom: 20px;
-  display: hidden;
 }
 
 .custom-filter-select {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border: 2px solid var(--jet);
+  border: 1px solid var(--jet);
   background-color: var(--eerie-black-1);
   box-shadow: var(--shadow-2);
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 10px;
+  color: var(--orange-yellow-crayola);
 }
 
 .custom-filter-select ion-icon {
   font-size: 18px;
 }
 
+/* Dropdown container with animation */
 .custom-select-list {
-  position: absolute;
   width: 100%;
   margin-top: 5px;
-  border: 1px solid #007bff;
-  background-color: black;
+  border: 1px solid var(--jet);
+  background-color: var(--eerie-black-2);
   list-style: none;
   padding: 0;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  z-index: 1000;
+  border-radius: 10px;
+  position: relative;
+  
+  /* Transition Effect */
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* When dropdown is open */
+.custom-select-list.show {
+  max-height: 300px; /* Adjust height based on content */
+  opacity: 1;
+  transform: scaleY(1);
 }
 
 .custom-select-list li {
@@ -1941,10 +1956,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   background: none;
   cursor: pointer;
   font-size: 16px;
+  color: white;
 }
 
 .custom-select-list li button:hover,
 .custom-select-list li button.active {
-  background-color: #007bff;
-  color: white;
+  background-color: var(--bg-gradient-yellow-1);
+  color: var(--orange-yellow-crayola);
 }
+
+

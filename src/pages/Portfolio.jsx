@@ -238,14 +238,6 @@
 
 // export default Portfolio
 
-
-
-
-
-
-
-
-
 // import React, { useState } from 'react';
 
 // const Portfolio = () => {
@@ -309,10 +301,6 @@
 
 // export default Portfolio;
 
-
-
-
-
 import React, { useState } from "react";
 
 const Portfolio = () => {
@@ -320,21 +308,68 @@ const Portfolio = () => {
   const [showDropdown, setShowDropdown] = useState(false);
 
   const projects = [
-    { id: 1, title: "Finance", category: "web development", img: "/images/project-1.jpg" },
-    { id: 2, title: "Orizon", category: "web development", img: "/images/project-2.png" },
-    { id: 3, title: "Fundo", category: "web design", img: "/images/project-3.jpg" },
-    { id: 4, title: "Brawlhalla", category: "applications", img: "/images/project-4.png" },
-    { id: 5, title: "DSM.", category: "web design", img: "/images/project-5.png" },
-    { id: 6, title: "MetaSpark", category: "web design", img: "/images/project-6.png" },
-    { id: 7, title: "Summary", category: "web development", img: "/images/project-7.png" },
-    { id: 8, title: "Task Manager", category: "applications", img: "/images/project-8.jpg" },
-    { id: 9, title: "Arrival", category: "web development", img: "/images/project-9.png" },
+    {
+      id: 1,
+      title: "Finance",
+      category: "web development",
+      img: "/images/project-1.jpg",
+    },
+    {
+      id: 2,
+      title: "Orizon",
+      category: "web development",
+      img: "/images/project-2.png",
+    },
+    {
+      id: 3,
+      title: "Fundo",
+      category: "web design",
+      img: "/images/project-3.jpg",
+    },
+    {
+      id: 4,
+      title: "Brawlhalla",
+      category: "applications",
+      img: "/images/project-4.png",
+    },
+    {
+      id: 5,
+      title: "DSM.",
+      category: "web design",
+      img: "/images/project-5.png",
+    },
+    {
+      id: 6,
+      title: "MetaSpark",
+      category: "web design",
+      img: "/images/project-6.png",
+    },
+    {
+      id: 7,
+      title: "Summary",
+      category: "web development",
+      img: "/images/project-7.png",
+    },
+    {
+      id: 8,
+      title: "Task Manager",
+      category: "applications",
+      img: "/images/project-8.jpg",
+    },
+    {
+      id: 9,
+      title: "Arrival",
+      category: "web development",
+      img: "/images/project-9.png",
+    },
   ];
 
   const categories = ["all", "web design", "applications", "web development"];
 
   const filteredProjects =
-    activeFilter === "all" ? projects : projects.filter((p) => p.category === activeFilter);
+    activeFilter === "all"
+      ? projects
+      : projects.filter((p) => p.category === activeFilter);
 
   return (
     <article className="portfolio active" data-page="portfolio">
@@ -343,8 +378,6 @@ const Portfolio = () => {
       </header>
 
       <section className="projects">
-
-        
       <div className="custom-filter-box">
       <button
         className="custom-filter-select"
@@ -354,26 +387,22 @@ const Portfolio = () => {
         <ion-icon name={showDropdown ? "chevron-up" : "chevron-down"}></ion-icon>
       </button>
 
-      {showDropdown && (
-        <ul className="custom-select-list">
-          {categories.map((category) => (
-            <li key={category}>
-              <button
-                className={activeFilter === category ? "active" : ""}
-                onClick={() => {
-                  setActiveFilter(category);
-                  setShowDropdown(false); // Close dropdown after selection
-                }}
-              >
-                {category.charAt(0).toUpperCase() + category.slice(1)}
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
+      <ul className={`custom-select-list ${showDropdown ? "show" : ""}`}>
+        {categories.map((category) => (
+          <li key={category}>
+            <button
+              className={activeFilter === category ? "active" : ""}
+              onClick={() => {
+                setActiveFilter(category);
+                setShowDropdown(false); // Close dropdown after selection
+              }}
+            >
+              {category.charAt(0).toUpperCase() + category.slice(1)}
+            </button>
+          </li>
+        ))}
+      </ul>
     </div>
-
-        
 
         <ul className="filter-list">
           {categories.map((category) => (
@@ -387,8 +416,6 @@ const Portfolio = () => {
             </li>
           ))}
         </ul>
-        
-
 
         <ul className="project-list">
           {filteredProjects.map(({ id, title, category, img }) => (
