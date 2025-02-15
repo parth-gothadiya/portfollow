@@ -27,13 +27,19 @@
       },
       {
         "label": "Telegream",
-        "icon": "logo-facebook",
+        "icon": "logo-github",
         "url": "/"
       },
       {
         "label": "Whatapp",
-        "icon": "logo-facebook",
+        "icon": "logo-whatsapp",
         "url": "/"
+      },
+      
+      {
+        "label": "Telegream",
+        "icon": "paper-plane",
+        "url": "https://t.me/+X9Hk05CnH4o4MmRl"
       }
     ]
   },
@@ -94,7 +100,7 @@
           "description": "Edited and produced high-quality video content for marketing, social media, and promotional campaigns."
         },
         {
-          "position": "Swaminarayan Vadtal Gadi (SVG),",
+          "position": "Swaminarayan Vadtal Gadi (SVG)",
           "years": "2023 — 2023",
           "description": "Integrated animations, transitions, and VFX to enhance video storytelling.Organized and archived footage to streamline project efficiency."
         },
