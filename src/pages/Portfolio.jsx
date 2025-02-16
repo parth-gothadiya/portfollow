@@ -518,6 +518,23 @@ const Portfolio = () => {
               ))}
             </ul>
           )}
+
+<ul className={`custom-select-list ${showDropdown ? "show" : ""}`}>
+         {categories.map((category) => (
+          <li key={category}>
+            <button
+              className={activeFilter === category ? "active" : ""}
+              onClick={() => {
+                setActiveFilter(category);
+                setShowDropdown(false); // Close dropdown after selection
+              }}
+            >
+              {category.charAt(0).toUpperCase() + category.slice(1)}
+            </button>
+          </li>
+        ))}
+      </ul>
+
         </div>
 
         {/* Filter List */}

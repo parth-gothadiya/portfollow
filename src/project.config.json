@@ -13,33 +13,33 @@
       {
         "label": "Instagram",
         "icon": "logo-instagram",
-        "url": "/"
+        "link": "/"
       },
       {
         "label": "Youtube",
         "icon": "logo-youtube",
-        "url": "/"
+        "link": "https://www.youtube.com/@MindfulFacts2580/videos"
       },
       {
         "label": "Facebook",
         "icon": "logo-facebook",
-        "url": "/"
+        "link": "/"
       },
       {
         "label": "Telegream",
         "icon": "logo-github",
-        "url": "/"
+        "link": "/"
       },
       {
         "label": "Whatapp",
         "icon": "logo-whatsapp",
-        "url": "/"
+        "link": " https://wa.me/qr/N3OVFM2ULD7TC1 "
       },
       
       {
         "label": "Telegream",
         "icon": "paper-plane",
-        "url": "https://t.me/+X9Hk05CnH4o4MmRl"
+        "link": "https://t.me/+X9Hk05CnH4o4MmRl"
       }
     ]
   },

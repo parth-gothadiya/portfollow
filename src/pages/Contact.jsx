@@ -110,7 +110,7 @@ const Contact = () => {
       <section className="mapbox" data-mapbox>
         <figure>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7438.669656511395!2d72.89878615954031!3d21.218567268536585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be045882435e545%3A0xd6f93d3d2fa5d1b5!2sSimada%20Gam%2C%20Nana%20Varachha%2C%20Surat%2C%20Gujarat%20395006!5e0!3m2!1sen!2sin!4v1739692617314!5m2!1sen!2sin"
             width="400"
             height="300"
             loading="lazy"
