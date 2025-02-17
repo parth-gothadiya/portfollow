@@ -5,7 +5,7 @@ const Service = () => {
     <article className="blog active" data-page="blog">
 
         <header>
-          <h2 className="h2 article-title">Blog</h2>
+          <h2 className="h2 article-title">Service</h2>
         </header>
 
         <section className="blog-posts">
