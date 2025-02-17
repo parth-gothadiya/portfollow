@@ -58,8 +58,8 @@
         "to": "/portfolio"
       }, 
       {
-        "label": "Blog",
-        "to": "/blog"
+        "label": "Service",
+        "to": "/service"
       },
       {
         "label": "Contact",

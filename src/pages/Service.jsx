@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Blog = () => {
+const Service = () => {
   return (
     <article className="blog active" data-page="blog">
 
@@ -188,4 +188,4 @@ const Blog = () => {
   )
 }
 
-export default Blog;
+export default Service;

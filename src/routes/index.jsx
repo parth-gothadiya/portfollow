@@ -1,16 +1,16 @@
 import React from 'react' 
 import { Route, Routes } from'react-router-dom'
 import About from '../pages/About'
-import Blog from '../pages/Blog'
 import Contact from '../pages/Contact'
 import Portfolio from '../pages/Portfolio'
 import Resume from '../pages/Resume'
+import Service from '../pages/Service'
 
 const RouterWrapper = () => {
   return (
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/Service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
