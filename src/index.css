@@ -953,7 +953,7 @@ transform: scale(1.2,1.2 );
 .project-img {
   position: relative;
   width: 100%;
-  height: 200px;
+  max-height: 200px;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -2047,3 +2047,12 @@ body.modal-open {
 
 
 
+/* .project-video
+{
+  max-width: 50%;
+  max-height: max-content;
+  object-fit: cover;
+  display:block;
+  justify-items: center;
+  a
+} */

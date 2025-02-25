@@ -702,13 +702,15 @@ const Portfolio = () => {
                     <video
                       src={project.img}
                       poster={project.poster}
-                      className="project-video"
+                      className="project-img"
                       muted
                       loop
+                      autoPlay
                       preload="none"
                       onClick={(e) => {
                         e.target.muted = !e.target.muted; // Toggle mute on click
-                      }}
+                    
+                    }}
                     />
                   ) : (
                     <img src={project.img} alt={project.title} loading="lazy" />
