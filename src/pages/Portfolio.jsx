@@ -663,19 +663,19 @@ const Portfolio = () => {
         </div>
         <ul className={`custom-select-list ${showDropdown ? "show" : ""}`}>
           {categories.map((category) => (
-          <li key={category}>
-            <button
-              className={activeFilter === category ? "active" : ""}
-              onClick={() => {
-                setActiveFilter(category);
-                setShowDropdown(false); // Close dropdown after selection
-              }}
-            >
-              {category.charAt(0).toUpperCase() + category.slice(1)}
-            </button>
-          </li>
-        ))}
-      </ul>
+            <li key={category}>
+              <button
+                className={activeFilter === category ? "active" : ""}
+                onClick={() => {
+                  setActiveFilter(category);
+                  setShowDropdown(false); // Close dropdown after selection
+                }}
+              >
+                {category.charAt(0).toUpperCase() + category.slice(1)}
+              </button>
+            </li>
+          ))}
+        </ul>
 
         {/* Filter List */}
         <ul className="filter-list">
@@ -706,10 +706,14 @@ const Portfolio = () => {
                       muted
                       loop
                       preload="none"
+                      onClick={(e) => {
+                        e.target.muted = !e.target.muted; // Toggle mute on click
+                      }}
                     />
                   ) : (
                     <img src={project.img} alt={project.title} loading="lazy" />
                   )}
+
                 </figure>
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-category">{project.category}</p>
