@@ -597,7 +597,8 @@ const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
-    { id: 1, title: "Finance", category: "web development", img: "/videos/Doctor.mp4", poster: "videos/Doctor.mp4" },
+    { id: 1, title: "Finance", category: "web development", img: "/images/project-2.png"  },
+    // { id: 1, title: "Finance", category: "web development", img: "/videos/Doctor.mp4", poster: "videos/Doctor.mp4" },
     { id: 2, title: "Orizon", category: "web development", img: "/images/project-2.png" },
     { id: 3, title: "Fundo", category: "web design", img: "/images/project-3.jpg" },
     { id: 4, title: "Brawlhalla", category: "applications", img: "/images/project-4.png" },
