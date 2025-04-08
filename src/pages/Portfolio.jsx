@@ -8,9 +8,9 @@ const Portfolio = () => {
 
   const projects = [
     // { id: 1, title: "Finance", category: "web development", img: "/images/project-2.png"  },
-    { id: 1, title: "Finance", category: "Video Editing", img: "/public/videos/0004..mp4", poster: "" },
-    { id: 2, title: "Orizon", category: "Video Editing", img: "/public/videos/001.mp4" },
-    { id: 3, title: "Fundo", category: "Video Editing", img: "/public/videos/003.mp4" },
+    { id: 1, title: "Finance", category: "Video Editing", img: "images/project-5.png", poster: "" },
+    { id: 2, title: "Orizon", category: "Video Editing", img: "/images/project-5.png" },
+    { id: 3, title: "Fundo", category: "Video Editing", img: "/images/project-5.png" },
     { id: 4, title: "Brawlhalla", category: "applications", img: "/images/project-4.png" }, 
     { id: 5, title: "DSM.", category: "web design", img: "/images/project-5.png" },
     { id: 6, title: "MetaSpark", category: "web design", img: "/images/project-6.png" },
