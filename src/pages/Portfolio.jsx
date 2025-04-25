@@ -13,12 +13,12 @@ const Portfolio = () => {
     { id: 2, title: "Mindful Facts", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745595899/t5nhxlsujopyl95cn4zj.mp4" },
 
     { id: 3, title: "Mindful Facts", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745595895/vkzmddnz0y42asdvtd9e.mp4" },
-    { id: 4, title: "PPMHPL", category: "applications", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745596577/003_Dr_Priyanka_cancer_z5wnod.mp4" }, 
-    { id: 5, title: "EFX", category: "web design", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745596719/Comp_1_5_2_thm2_prob3_2_bhujoq.mp4" },
-    { id: 6, title: "PPMHPL", category: "web design", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745596469/3%E6%9C%8824%E6%97%A5_2_Dr_Janki_Kakadiya_lipid_rul8gt.mp4" },
-    { id: 7, title: "Logo Animation ", category: "web development", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745597296/Final_Render-_rsuapg.mp4" },
-    { id: 8, title: "Zibrish Rooftop", category: "applications", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745594702/ip6swfan3k7u2ulnartz.mp4" },
-    { id: 9, title: "Harmonify", category: "web development", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745598402/5_6284898796119788538_xopwnd.mp4" },
+    { id: 4, title: "PPMHPL", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745596577/003_Dr_Priyanka_cancer_z5wnod.mp4" }, 
+    { id: 5, title: "EFX", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745596719/Comp_1_5_2_thm2_prob3_2_bhujoq.mp4" },
+    { id: 6, title: "PPMHPL", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745596469/3%E6%9C%8824%E6%97%A5_2_Dr_Janki_Kakadiya_lipid_rul8gt.mp4" },
+    { id: 7, title: "Logo Animation ", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745597296/Final_Render-_rsuapg.mp4" },
+    { id: 8, title: "Zibrish Rooftop", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745594702/ip6swfan3k7u2ulnartz.mp4" },
+    { id: 9, title: "Harmonify", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745598402/5_6284898796119788538_xopwnd.mp4" },
   ];
 
   const categories = ["all", "web design", "Video Editing", "web development"];
