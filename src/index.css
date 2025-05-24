@@ -2049,6 +2049,12 @@ body.modal-open {
   color: var(--orange-yellow-crayola);
 }
 
+.pt-5
+{
+  margin-top: 40px;
+}
 
-
+.ws-2{
+padding: 20px !important;
+}
 

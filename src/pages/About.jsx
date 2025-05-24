@@ -269,13 +269,13 @@ const About = () => {
             </a>
           </li>
 
-          <li className="clients-item">
+          <li className="clients-item pt-2">
             <a href="#">
               <img src="../../public/images/curigen.png"></img>
             </a>
           </li>
 
-          <li className="clients-item">
+          <li className="clients-item  pt-5">
             <a href="#">
               <img src="../../public/images/Merena Logo.png"></img>
             </a>
