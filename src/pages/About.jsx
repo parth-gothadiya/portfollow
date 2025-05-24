@@ -257,33 +257,33 @@ const About = () => {
 
         <ul className="clients-list has-scrollbar">
 
-          <li className="clients-item">
+          <li className="clients-item ws-2">
             <a href="#">
-              <img src="/images/logo-1-color.png" alt="client logo" />
+              <img src="../../public/images/ZIBRISH LOGO.PNG" alt="client logo" />
             </a>
           </li>
 
           <li className="clients-item">
             <a href="#">
-              <img src="/images/logo-2-color.png" alt="client logo" />
+              <img src="../../public/images/LONG-D LOGO.png"></img>
             </a>
           </li>
 
           <li className="clients-item">
             <a href="#">
-              <img src="/images/logo-3-color.png" alt="client logo" />
+              <img src="../../public/images/curigen.png"></img>
             </a>
           </li>
 
           <li className="clients-item">
             <a href="#">
-              <img src="/images/logo-4-color.png" alt="client logo" />
+              <img src="../../public/images/Merena Logo.png"></img>
             </a>
           </li>
 
           <li className="clients-item">
             <a href="#">
-              <img src="/images/logo-5-color.png" alt="client logo" />
+              <img src="../../public/images/Logo Png.png "></img>
             </a>
           </li>
 
