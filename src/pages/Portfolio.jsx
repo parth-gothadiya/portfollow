@@ -19,9 +19,22 @@ const Portfolio = () => {
     { id: 7, title: "Logo Animation ", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745597296/Final_Render-_rsuapg.mp4" },
     { id: 8, title: "Zibrish Rooftop", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745594702/ip6swfan3k7u2ulnartz.mp4" },
     { id: 9, title: "Harmonify", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1745598402/5_6284898796119788538_xopwnd.mp4" },
+    { id: 10, title: "The Long-D ", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1748082102/5%E6%9C%889%E6%97%A5_09-05_e24nko.mp4" },
+    { id: 11, title: "The Long -D", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1748083898/5%E6%9C%888%E6%97%A5_zibrsh_reel_gailgx.mp4" },
+    { id: 12, title: "The Long-D", category: "Video Editing", img: "https://res.cloudinary.com/dg4xzeevq/video/upload/v1748082177/5%E6%9C%8819%E6%97%A5_cvbyon.mp4" },
+  
+    { id: 13, title: "The Long-D", category: "Graphic Design", img: "https://res.cloudinary.com/dg4xzeevq/image/upload/v1748081620/12_May_-_PPMHPL_pzy7nv.png" },
+    { id: 14, title: "The Long-D", category: "Graphic Design", img: "https://res.cloudinary.com/dg4xzeevq/image/upload/v1748081713/20_May_-_Digitlaks_fcbo6h.png" },
+    { id: 15, title: "The Long-D", category: "Graphic Design", img: "https://res.cloudinary.com/dg4xzeevq/image/upload/v1748081624/May_17_-_PPMHPL_i3p0ml.png" },
+
+  
+
+
   ];
 
-  const categories = ["all", "web design", "Video Editing", "web development"];
+
+
+  const categories = ["all",  "Video Editing", "Graphic Design","web development"];
   const filteredProjects = activeFilter === "all" ? projects : projects.filter((p) => p.category === activeFilter);
 
   useEffect(() => {
@@ -77,6 +90,7 @@ const Portfolio = () => {
         <ul className={`custom-select-list ${showDropdown ? "show" : ""}`}>
           {categories.map((category) => (
             <li key={category}>
+            
               <button
                 className={activeFilter === category ? "active" : ""}
                 onClick={() => {
@@ -161,11 +175,4 @@ const Portfolio = () => {
     </article>
   );
 };
-
 export default Portfolio;
-
-
-
-
-
-
